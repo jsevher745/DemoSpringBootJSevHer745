@@ -1,7 +1,31 @@
-ent-*/
-*.csv
-*.pkl
-.dvc/dvc-key.json
-__pycache__/
-report.txt
-.pytest_cache
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jrxml
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/mvnw
+/mvnw.cmd
