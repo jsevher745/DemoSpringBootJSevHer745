@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY api/ ./api
 
-COPY model/model.pkl ./model/model.pkl
+COPY model/model.pkl.dvc ./model/model.pkl.dvc
 
 COPY initializer.sh .
 
